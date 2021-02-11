@@ -10,6 +10,25 @@ Begin VB.Form Form2
    ScaleWidth      =   5400
    StartUpPosition =   2  'ÆÁÄ»ÖÐÐÄ
    WindowState     =   2  'Maximized
+   Begin VB.Label Label1 
+      BackStyle       =   0  'Transparent
+      Caption         =   "Happy new year!!"
+      BeginProperty Font 
+         Name            =   "ËÎÌå"
+         Size            =   21.75
+         Charset         =   134
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00FFFFFF&
+      Height          =   495
+      Left            =   120
+      TabIndex        =   0
+      Top             =   120
+      Width           =   4215
+   End
    Begin VB.Image Image1 
       Height          =   3375
       Left            =   0
@@ -35,6 +54,3 @@ Private Sub Form_Terminate()
 Unload Form1
 End Sub
 
-Private Sub Image1_Click()
-
-End Sub
